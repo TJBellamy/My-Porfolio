@@ -11,7 +11,7 @@ body {
 }
 /* Applying header and footer layout */
 header {
-padding: 20px;
+padding: 10px;
 color: white;
 background-color:skyblue;
 }
@@ -19,10 +19,20 @@ background-color:skyblue;
 nav {
 display: inline-block;
 padding: 0 25px 0 25px;
+
 }
 
-nav li {
-text-decoration:none;
+nav ul { 
+padding-left: 1000px;
 color:skyblue;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color:white;
 }
+/* Made list items horizantal */
+nav li {
+display:inline;
+text-decoration:none;
+padding: padding 0px 20px;
+}
+
 
