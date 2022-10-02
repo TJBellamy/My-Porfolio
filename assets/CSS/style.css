@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin:0;
+    
 }
 /* Adding font to css body */
 body {
@@ -11,28 +12,40 @@ body {
 }
 /* Applying header and footer layout */
 header {
-padding: 10px;
+padding: 0px;
 color: white;
 background-color:skyblue;
 }
+/* Added h1 font text element */
+h1{
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+font: size 10px;
+padding: 1px;
 
+}
 nav {
 display: inline-block;
-padding: 0 25px 0 25px;
+padding: 0 25px 0 310px;
 
 }
 
 nav ul { 
 padding-left: 1000px;
 color:skyblue;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 color:white;
 }
 /* Made list items horizantal */
 nav li {
+display:inline-block;
+margin-left: 20px;
+margin-bottom:20px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav li a{
+color: white;
 display:inline;
-text-decoration:none;
-padding: padding 0px 20px;
 }
 
 
