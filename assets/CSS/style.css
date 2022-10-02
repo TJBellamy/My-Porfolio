@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    padding: 0;
+    padding:0;
     margin:0;
     
 }
@@ -17,25 +17,33 @@ color: white;
 background-color:skyblue;
 }
 /* Added h1 font text element */
+/*This controls the h1 font on the header*/
 h1{
 font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-font: size 10px;
-padding: 1px;
-
+font size 10px;
+padding:1px;
 }
+
+h2{
+    padding:10px;
+}
+
 nav {
 display: inline-block;
-padding: 0 25px 0 310px;
+padding: 0 25px 0 1px;
 
 }
 
 nav ul { 
+display: inline inline-block;
 padding-left: 1000px;
 color:skyblue;
+padding-bottom:10px;
 
 color:white;
 }
 /* Made list items horizantal */
+/*This controls the 3 words on the side of the header*/
 nav li {
 display:inline-block;
 margin-left: 20px;
@@ -46,6 +54,7 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 nav li a{
 color: white;
 display:inline;
+margin: top 10px;
 }
 
 
