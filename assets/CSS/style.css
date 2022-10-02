@@ -1,0 +1,17 @@
+
+/* Adding font to css body */
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+    padding:0;
+    margin:0;
+}
+/* Applying header and footer layout */
+header,footer {
+position:absolute;
+color: white;
+background-color:skyblue;
+width: 100px;
+}
+
+
