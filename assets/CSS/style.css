@@ -11,7 +11,8 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 /* Applying header and footer layout */
-header {
+header,
+footer {
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -75,9 +76,4 @@ section{
     flex-direction:row;
 
 
-}
- 
-div{
- width: 100px;
- margin: auto;
 }
