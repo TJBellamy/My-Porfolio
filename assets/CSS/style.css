@@ -10,6 +10,18 @@ body {
     padding:0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+main{
+    min-height: 100vh;
+
+
+
+}
+li{
+list-style-type:none;
+display:inline-block;
+
+}
 /* Applying header and footer layout */
 header,
 footer {
@@ -33,6 +45,7 @@ h2{
     padding:10px;
     padding-right:100px;
     font-size: px;
+    border-right:solid grey 5px;
 }
 
 nav {
@@ -68,12 +81,37 @@ margin: top 10px;
  border: 1000px skyblue;
 }
 
-section{
+.About{
     background-color: white;
     color:gray;
     padding: 20px;
     display:flex;
     flex-direction:row;
-
-
 }
+
+.Works {
+    background-color: white;
+    color:gray;
+    padding: 20px;
+    display:flex;
+    flex-direction:row;
+}
+
+
+
+.ContactME{
+
+    background-color: white;
+    color:gray;
+    padding: 20px;
+    display:flex;
+    justify-content: space-between;
+}
+ .ContactME ul{
+    display:flex;
+    justify-content:space-between;
+    
+ }
+ .ContactME ul li{
+    padding:10px
+ }
