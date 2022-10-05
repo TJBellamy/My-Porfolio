@@ -4,6 +4,7 @@
     margin:0;
     
 }
+
 /* Adding font to css body */
 body {
     margin:0;
@@ -12,10 +13,14 @@ body {
 }
 
 main{
-    min-height: 100vh;
+    /* min-height: 100vh; */
 
 
 
+}
+a{
+    text-decoration: none;
+    color: inherit;
 }
 li{
 list-style-type:none;
@@ -72,15 +77,7 @@ color: white;
 display:inline;
 margin: top 10px;
 }
-
- aside{
- background-color:white;
- width: 310px;
- padding:50px;
- height:1000px;
- border: 1000px skyblue;
-}
-
+ 
 .About{
     background-color: white;
     color:gray;
@@ -88,14 +85,16 @@ margin: top 10px;
     display:flex;
     flex-direction:row;
 }
+p{
+    padding-left:50px;
+}
 
 .Works {
     background-color: white;
     color:gray;
-    padding: 20px;
+    padding: 20px; 
     display:flex;
-    flex-direction:row;
-}
+} 
 
 
 
@@ -115,3 +114,26 @@ margin: top 10px;
  .ContactME ul li{
     padding:10px
  }
+
+ .mywork{
+justify-content: center;
+align-content: center;
+ }
+
+ .mainimg{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    margin-bottom:10px;
+ }
+
+ .comingprojects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    gap:10px;
+ }
+ 
