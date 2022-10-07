@@ -142,3 +142,30 @@ align-content: center;
     align-items:center;
     gap:10px;
  } 
+
+@media screen and  (max-width: 968px ){
+ .Works{
+    display: block;
+    justify-content: center;
+ }
+ .Works h2 {
+    border-right: none;
+ }
+  .mainimg img{
+    max-width: 100%;
+  }
+  header{
+    display: block;
+  }
+  header ul li{
+   display: block;
+  }
+  .ContactME{
+    display: block;
+    justify-content: center;
+  }
+  .ContactME h2{
+    border-right: none;
+  }
+}
+
